@@ -38,3 +38,22 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+#================ ADDED GEMS ===============
+
+
+gem 'devise'
+gem 'fb_graph'
+gem 'active_model_serializers'
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'state_machine'
+gem 'kmts', github: 'pranas/kmts', branch: 'set_timeout'
+gem 'foundation-rails'
+
+gem 'markdown-rails'
+gem 'acts-as-taggable-on'
+
+
+gem 'carrierwave', '~> 0.9.0'
+gem 'fog'
+gem 'unf' # fog dependency
+gem 'rmagick'
