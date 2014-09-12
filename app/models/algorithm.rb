@@ -9,4 +9,7 @@ class Algorithm < ActiveRecord::Base
 
   belongs_to :user
 
+  has_many :songs_algorithms
+  has_many :songs, through: :songs_algorithms
+
 end
